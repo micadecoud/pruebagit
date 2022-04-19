@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient( to bottom, black, pink);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    text-align: center;
+    color: aliceblue;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.caja{
+    width: 300px;
+    height: 200px;
+    margin: 40px;
+    color: aliceblue;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 20%;
+}
+
+.niños{
+    color: black;
+    background-image: url(./imagenes/niños.jpg);
+    background-position: cover;
+}
+.adultos{
+    color: black;
+    background-image: url(./imagenes/adultos.jpg);
+    background-position: cover;
+}
+.despedidas{
+    color: black;
+    background-image: url(./imagenes/solteros.jpg);
+    background-position: cover;
+}
+.matrimonios{
+    color: black;
+    background-image: url(./imagenes/matrimonio.jpg);
+    background-position: cover;
+
+}
+.babyshower{
+    color: black;
+    background-image: url(./imagenes/baby\ shower.jpg);
+    background-position: cover;
+}
+.recibimientos{
+    background-image: url(./imagenes/recibiemiento.jpg);
+    background-position: cover;
+    color: black;
+}
+img{
+    margin: 20px;
+    transition: all 2s;
+    size: 30%;
+    border-style: double;
+    
+}
+img:hover{
+    transform: scale(1.1, 1.1);
+    border-radius: 60%;
+    opacity: 1; 
+}
